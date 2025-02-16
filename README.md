@@ -17,14 +17,3 @@ The **Face Recognition Attendance System** is a Python-based project that automa
 - **GUI:** Tkinter
 
 
-## Installation
-Follow these steps to set up the project on your local machine:
-
-
-## Usage
-1. **Register Users:** Capture and store images of users in the database.
-2. **Start Face Recognition:** The system will detect and recognize faces from live video input.
-3. **Mark Attendance:** Recognized users will have their attendance logged automatically.
-4. **Export Data:** Attendance records can be exported to an Excel file for reports.
-
-

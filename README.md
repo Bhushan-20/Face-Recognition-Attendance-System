@@ -1,4 +1,30 @@
-# Face-Recognition-Attendance-System
-Face Recognition Attendance system built using python programming language and storing data, database used was MySQL. The Algorithm used to create this project was Haar Cascade and  LBPH algorithm.
-Haar Cascade is a machine learning object detection algorithm used to identify objects or patterns within digital images or video.The Haar Cascade algorithm is particularly popular for detecting faces in images and is commonly used in applications such as face recognition, face tracking, and facial expression analysis.
-LBPH stands for Local Binary Patterns Histograms. It is a texture-based image descriptor used in computer vision and image processing for tasks like face recognition, texture classification, and object recognition. LBPH is particularly popular in face recognition applications due to its simplicity and effectiveness.
+# Face Recognition Attendance System
+
+## Overview
+The **Face Recognition Attendance System** is a Python-based project that automates the process of marking attendance using facial recognition technology. It leverages the **Haar Cascade** and **LBPH (Local Binary Patterns Histograms) algorithms** for face detection and recognition. The system efficiently stores attendance records in a **MySQL database**.
+
+## Features
+- **Face Detection:** Uses Haar Cascade to detect faces in images or live video streams.
+- **Face Recognition:** Implements LBPH for recognizing registered faces.
+- **Automatic Attendance Marking:** Recognized faces are logged into the database along with timestamps.
+- **Database Integration:** Stores user details in a MySQL database.
+- **User-Friendly Interface:** Built with Tkinter for an intuitive GUI.
+- **Excel Export:** Saves attendance data into an Excel file for further analysis.
+
+## Technologies Used
+- **Programming Language:** Python
+- **Database:** MySQL
+- **GUI:** Tkinter
+
+
+## Installation
+Follow these steps to set up the project on your local machine:
+
+
+## Usage
+1. **Register Users:** Capture and store images of users in the database.
+2. **Start Face Recognition:** The system will detect and recognize faces from live video input.
+3. **Mark Attendance:** Recognized users will have their attendance logged automatically.
+4. **Export Data:** Attendance records can be exported to an Excel file for reports.
+
+
